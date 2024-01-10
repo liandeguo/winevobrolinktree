@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2 {
+    font-size: 4vh;
+}
+.main {
+    border: 1px solid black;
+    display: flex;
+}
+
+.social_links {
+    border: 0px solid black;
+    border-right: 1px solid black;
+    padding: 10px;
+}
+.social_links img {
+    margin: 10px 0 10px 0;
+}
+
+.info img {
+    margin-right: 10px;
+}
+
+.info {
+    padding: 10px;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.links button {
+    border: 1px solid black;
+    background-color: white;
+    padding: 14px;
+    border-radius: 100px;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+}
+
+.links button:hover {
+    background-color: black;
+}
+
+.links button:hover a {
+    color: white;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+
+}
+
+iframe {
+    border: 1px solid black;
+}
+
+.highlight {
+    background: hsla(197, 100%, 63%, 1);
+
+    background: linear-gradient(45deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+
+    background: -moz-linear-gradient(45deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+
+    background: -webkit-linear-gradient(45deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#40C9FF", endColorstr="#E81CFF", GradientType=1 );
+}
